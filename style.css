@@ -1,0 +1,118 @@
+body {
+    background-image: url("wood-2203740_1280.jpg");
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+a {
+    color: white;
+    padding: 20px;
+}
+header, footer {
+    background-color: black;
+    font-family: 'Cookie', cursive;
+    padding: 5px;
+}
+header div {
+    display: inline-block;
+}
+#slider {
+    height: 150px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+#slider div {
+    display: inline-block;
+}
+#zamowienie {
+    text-align: left;
+    width: 48%;
+    background-color: black;
+    position: relative;
+    top: -60px;
+}
+#zamow {
+    color: #7fd7ff;
+    background-color: black;
+    border: 2px solid #7fd7ff;
+    height: 40px;
+    cursor: pointer;
+}
+#rezerwacja {
+    color: #FFD77F;
+    border: 2px solid #FFD77F;
+    background-color: #936c02;
+    height: 40px;
+    cursor: pointer;
+}
+#pizza {
+    background-image: url("pizza-3007395_1280.jpg");
+    width: 49%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+#logo {
+    width: 19%;
+    text-align: left;
+}
+#logo img {
+    height: 60px;
+}
+#menu {
+    width: 60%;
+    font-size: 1.4rem;
+    position: relative;
+    top: -20px;
+}
+#telefon {
+    width: 19%;
+    position: relative;
+    top: -20px;
+}
+#menu a:hover {
+    color: #ffd77f;
+}
+#skladniki, #receptura, #dostawa {
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    border: 5px solid black;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+#skladniki {
+    background-image: url("olive-oil-1412361__340.jpg");
+}
+#receptura {
+    background-image: url("cook-1375788_960_720.jpg");
+}
+#dostawa {
+    background-image: url("motor-scooter-4837310_960_720.jpg");
+}
+#skladniki p, #receptura p, #dostawa p {
+    position: relative;
+    bottom: -50px;
+    text-align: right;
+}
+#pizze {
+    background-color: black;
+    margin-top: 20px;
+}
+.pizza {
+    display: inline-block;
+    width: 22%;
+    margin: 20px;
+}
+.pizza p {
+    font-size: 10px;
+}
+.pizza img {
+    width: 100%;
+}
+#zamow:hover, #rezerwacja:hover {
+    color: #333333;
+}
