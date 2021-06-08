@@ -1,0 +1,92 @@
+html {
+    background-color: #869960;
+}
+.container {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding: 30px;
+}
+header {
+    color: #617140;
+}
+.navigate {
+    color: #617140;
+    border: 3px solid #e5e9dc;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.navigate:hover {
+    background-color: #e5e9dc;
+}
+.content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+}
+.content-area p {
+    width: 65%;
+}
+.sidebar {
+    background-color: #e5e9dc;
+    width: 25%;
+    float: right;
+    padding: 40px;
+}
+footer {
+    color: #999;
+    text-align: center;
+    margin-top: 30px;
+}
+h1 {
+    line-height: 0;
+}
+h3 {
+    line-height: .5;
+}
+form {
+    background-color: #ececec;
+    width: 450px;
+    padding: 40px;
+}
+input, select {
+    display: block;
+    width: 442px;
+    height: 40px;
+    margin-top: 20px;
+}
+#submit {
+    color: white;
+    background-color: #869961;
+    border: none;
+    cursor: pointer;
+    width: 450px;
+    margin-bottom: 20px;
+}
+select {
+    width: 450px;
+}
+#stay {
+    width: initial;
+    height: initial;
+    display: initial;
+    margin-top: initial;
+}
+thead {
+    font-weight: bold;
+    text-align: center;
+}
+#image {
+    width: 520px;
+    height: 380px;
+    background-image: url("squirrel-4515962_640.jpg");
+}
+#img-description {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    height: 70px;
+    padding: 20px;
+}
+#empty {
+    height: 270px;
+}
